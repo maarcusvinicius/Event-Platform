@@ -1,42 +1,43 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.tsx'
-  ],
+  content: ["./src/**/*.tsx"],
   theme: {
     extend: {
+      backgroundImage: {
+        blur: "url(/src/assets/blur-background.png)",
+      },
       fontFamily: {
-        sans: "Roboto, sans-serif"
+        sans: "Roboto, sans-serif",
       },
       colors: {
         orange: {
           100: "#FBA94C",
-          300: '#F7941D',
-          500: '#874900',
-          700: '#5F3801',
+          300: "#F7941D",
+          500: "#874900",
+          700: "#5F3801",
         },
         green: {
-          300: '#00B37E',
-          500: '#00875F',
-          700: '#015F43',
+          300: "#00B37E",
+          500: "#00875F",
+          700: "#015F43",
         },
         blue: {
-          500: '#81D8F7',
+          500: "#81D8F7",
         },
         red: {
-          500: '#F75A68',
+          500: "#F75A68",
         },
         gray: {
-          100: '#E1E1E6',
-          200: '#C4C4CC',
-          300: '#8D8D99',
-          500: '#323238',
-          600: '#29292E',
-          700: '#121214',
-          900: '#09090A'
-        }
-      }
+          100: "#E1E1E6",
+          200: "#C4C4CC",
+          300: "#8D8D99",
+          500: "#323238",
+          600: "#29292E",
+          700: "#121214",
+          900: "#09090A",
+        },
+      },
     },
   },
   plugins: [],
-}
+};
