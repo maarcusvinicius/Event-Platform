@@ -20,18 +20,18 @@ Me aprofundar mais em Clean Code, React, Typescript e utilização de GraphQl pa
 
     - [ ] Criar version Mobile
 
-    - [x] Criar Backend Node
+    - [x] Criar Backend GraphQl
 
     - [x] Conexão da API criada
 
-    - [ ] Authentication Web
+    - [X] Authentication Web
 
-    - [x] Authentication Mobile
+    - [ ] Authentication Mobile
 
     - [ ] Deploy
-
-<h2 id="Web"> 💻 Version Web </h2>
 <br><br>
+<h2 id="Web"> 💻 Version Web </h2>
+<br>
 <h1 align="center">
     <img align="center" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Web Img Ti1.png">
     <br><br>
@@ -39,16 +39,6 @@ Me aprofundar mais em Clean Code, React, Typescript e utilização de GraphQl pa
 </h1>
 
 <br>
-
-<h2 id="Mobile"> 📲 Version Mobile </h2>
-<br><br>
-<div align="center" >
-    <img align="center" height="302" alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Mobile Img Login Ti1.png">
-    <img align="center" height="302"  alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Mobile Img Ti1.png">
-    <img align="center" height="302"  alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Mobile Img Ti2.png">
-</div>
-
-<br><br>
 
 <h2 id="executar"> 🚀 Como executar </h2>
 
@@ -62,16 +52,14 @@ Para iniciar o projeto:
 ```bash
 
 # Instalar as dependências
-$ npm install
-
-# Faça uma copia do arquivo `.env.example` para `.env` e informe suas credenciais de banco de dados e login discord
+$ yarn install
 
 # Iniciar o projeto
-$ npm run dev
+$ yarn run dev
 ```
 
 
-A aplicação pode ser acessada em [`localhost:3000`](http://localhost:3000).
+A aplicação pode ser acessada em [`localhost:5173`](http://localhost:5173).
 
 <br>
 
@@ -85,6 +73,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <img align="center" alt="Marcu-Js" height="40" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Marcu-React" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
   <img align="center" alt="Marcu-Ts" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Marcu-GQl" height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg">
 </div>
 
 <br><br>
@@ -101,7 +90,7 @@ Create React apps with no build configuration.
 <br><br>
 
 <h4 align="center"> 
-	🚧  Find Friends 😁 FINALIZADO  🚧
+	🚧  Event Platform 👨 FINALIZADO  🚧
 </h4>
 <br>
 <p align="center">Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!</p>
