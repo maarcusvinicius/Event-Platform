@@ -12,7 +12,7 @@ export function Event() {
   const { slug } = useParams<Params>()
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col bg-blur bg-cover bg-no-repeat min-h-screen">
       <Header />
 
       <main className="flex flex-1">
