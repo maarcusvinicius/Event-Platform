@@ -1,13 +1,9 @@
 <h1 align="center">Event Platform 👨</h1>
 
-<p align="center">🔥 Sua plataforma online! Aqui irá compartilhar seus conhecimentos com seus alunos!</p>
+<p align="left">🔥 Your online platform! Here you will share your knowledge with your students!
 
-<p align="center">
-  <a href="#-executar">Como executar</a> •
-  <a href="#-tecnologias">Tecnologias</a> •
-  <a href="#-projeto">Projeto</a> • 
-  <a href="#-objetivo">Objetivo</a> • 
-  <a href="#-roadmap">Roadmap</a>
+The Event Platform is a project for an online course platform that allows sharing knowledge with students. The platform is accessed via the web and offers classes that can be watched after logging in to a specific room. Courses have videos, themes, descriptions, release dates, and assigned teachers.
+
 </p>
 
 <br />
@@ -25,28 +21,23 @@
 
 <br />
 
-## 🚀 Como executar
+## 🎡 Functionalities
 
-Clone o repositório e acesse a pasta.
+- Access to online course classes.
 
-```bash
-$ git clone https://github.com/maarcusvinicius/Event-Platform.git
+- Authentication of users on the platform.
 
-Para iniciar o projeto:
+- Selection of videos and lecture themes.
 
-# Instalar as dependências
-$ npm install / yarn
+- View course descriptions and release dates.
 
-# Iniciar o projeto
-$ npm run / yarn run
-```
-A aplicação pode ser acessada em [`localhost:#`](http://localhost:#).
+- Assignment of teachers for each class and manipulation of objects with Hygraph.
 
 <br />
 
-## 🔧 Tecnologias
+## 🔧 Resources used
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following resources and technologies:
 
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
@@ -58,44 +49,118 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br />
 
-## 💻 Projeto
+## 🚀 How to run the project
 
-O Event Platform é um projeto que simula uma plataforma de cursos via Web, onde é possível assistir as aulas com um metodo de login a sala, onde pode escolher o video, tema da aula, descrição, data a ser lançada, professor do dia, e entre outos. Tudo sendo manipulado e inserido com o Hygraph utilizando o Graphql.
+1. Clone the repository to your local machine.
 
-<br />
+```bash
+$ git clone https://github.com/maarcusvinicius/Event-Platform.git
+```
 
-## ✅ Objetivo
+2. Navigate to the project directory and install dependencies.
 
-Me aprofundar mais em Clean Code, React, Typescript e utilização de Hygraph com GraphQl para o cliente final ter mais simplicidade ao projeto. Sempre pensando no criente final!!
+```bash
+$ cd Event-Platform
+$ npm install
+```
 
-## 🏍️ Roadmap
+3. Start the development server.
 
-<br />
+```bash
+$ npm start
+```
 
-    - [x] Criar version Web
-
-    - [ ] Criar version Mobile
-
-    - [x] Criar Backend GraphQl
-
-    - [x] Conexão da API criada
-
-    - [X] Authentication Web
-
-    - [ ] Authentication Mobile
-
-    - [ ] Deploy
+4. Open your browser and go to http://localhost:3000 to view the application.
 
 <br />
 
+## 🔧 Technologies
+
+This project was developed with the following technologies:
+
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Graphql](https://graphql.org/)
+- [Hygraph](https://hygraph.com/)
+- [Node e NPM](https://nodejs.org/)
+
+<br />
+
+## 💻 Project structure
+
+```bash
+Event-Platform/
+  assets/
+  node_modules/
+  public/
+  src/
+    assets/
+    components/
+      Header.tsx
+      Lesson.tsx
+      Logo.tsx
+      Sidebar.tsx
+      Video.tsx
+    graphql/
+      mutations/
+      queries/
+      resolvers-types.ts
+    lib/
+      apollo.ts
+    pages/
+      Event.tsx
+      Subscribe.tsx
+    styles/
+    App.tsx
+    main.tsx
+    Router.tsx
+    vite-env.d.ts
+  .gitignore
+  codegen.yml
+  index.html
+  package.json
+  postcss.config.cjs
+  README.md
+  tailwind.config.js
+  tsconfig.json
+  tsconfig.node.json
+  vite.config.ts
+  yarn.lock
+```
+
+<br />
+
+## 🏍️ Components
+
+<br />
+
+- `Header.tsx`: component responsible for displaying the platform header. It may contain elements such as the logo, navigation links and user information.
+
+- `Lesson.tsx`: component responsible for displaying the information of a specific lesson. May include class title, description, release date, and assigned teacher.
+
+- `Logo.tsx`: component that represents the platform logo. It is used to display the visual identity of the application.
+
+- `Sidebar.tsx`: component responsible for displaying the platform's sidebar. It may contain navigation links, filtering options or other menu elements.
+
+- `Video.tsx`: component responsible for displaying the class video. May include playback controls, progress bar, and other elements related to displaying the video.
+
+
+<br />
+<br />
 <h4 align="center"> 
-	🚧  Event Platform 👨 EM CONSTRUÇÃO...  🚧
+	🚧  Event Platform 👨 IN CONSTRUCTION...  🚧
 </h4>
 <br />
-
+<br />
+<br />
+<br />
 <br />
 
-Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!
+Made with ❤️ by Marcus Vinicius 👋🏽 Get in touch!
+
+//done readme marcus
 
 
 
@@ -107,27 +172,19 @@ Feito com ❤️ por Marcus Vinicius 👋🏽 Entre em contato!
 
 
 
+### 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚘𝚍𝚎𝚛𝚜/>! <img width="40" src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif">
 
+I'm a Web Developer, a programmer looking to make <br /> a difference in the digital world. [**Personal Site**](https://marcus-dev.vercel.app/) 🚀
 
+#### My current tools
 
+📲 Front-end Mobile with React Native  
+💻 Front-end Web with Reactjs  
+📡 Back-end with Nodejs  
+🔣 Typescript  
+🧰 And more...
 
-
-//feito readme marcus 
-
-
-### Olá, sou Marcus <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" >
-
-Sou Desenvolvedor Web, um programador procurando fazer a diferença no mundo digital. [**Profile Github**](https://github.com/maarcusvinicius). 🚀
-
-#### Minhas ferramentas atuais
-📲 Front-end Mobile com React Native  
-🌎 Front-end Web com Reactjs  
-📡 Back-end com Nodejs  
-🛠️ Typescript  
-🧰 And more...  
-
-
-#### 💬 Encontre-me em outro lugar
+#### 💬 Find me elsewhere
 
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcus-vinicius-507718228/)](https://www.linkedin.com/in/marcus-vinicius-507718228/)
 [![Gmail Badge](https://img.shields.io/badge/-marcus.editor77@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:marcus.editor77@gmail.com)](marcus.editor77@gmail.com)
