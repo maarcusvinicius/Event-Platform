@@ -23,15 +23,15 @@ The Event Platform is a project for an online course platform that allows sharin
 
 ## 🎡 Functionalities
 
-- Access to online course classes.
+- Access to online course classes
 
-- Authentication of users on the platform.
+- Authentication of users on the platform
 
-- Selection of videos and lecture themes.
+- Selection of videos and lecture themes
 
-- View course descriptions and release dates.
+- View course descriptions and release dates
 
-- Assignment of teachers for each class and manipulation of objects with Hygraph.
+- Assignment of teachers for each class and manipulation of objects with Hygraph
 
 <br />
 
@@ -71,20 +71,6 @@ $ npm start
 ```
 
 4. Open your browser and go to http://localhost:3000 to view the application.
-
-<br />
-
-## 🔧 Technologies
-
-This project was developed with the following technologies:
-
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [Tailwindcss](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Graphql](https://graphql.org/)
-- [Hygraph](https://hygraph.com/)
-- [Node e NPM](https://nodejs.org/)
 
 <br />
 
@@ -147,6 +133,17 @@ Event-Platform/
 - `Video.tsx`: component responsible for displaying the class video. May include playback controls, progress bar, and other elements related to displaying the video.
 
 
+<br />
+
+## License
+
+<p>
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit/). Feel free to use, modify and distribute it as needed.
+
+</p>
+
+<br />
 <br />
 <br />
 <h4 align="center"> 
